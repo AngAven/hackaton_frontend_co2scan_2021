@@ -7,3 +7,7 @@
 .nav-link{
     color: white;
 }
+.center-element{
+    display: grid;
+    justify-content: center;
+}
