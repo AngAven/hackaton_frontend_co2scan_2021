@@ -4,8 +4,6 @@ services:
   app:
     container_name: co2scan
     build: .
-    ports:
-      - 3000:3000
 networks:
   default:
     external: true
