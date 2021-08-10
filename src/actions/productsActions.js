@@ -10,7 +10,7 @@ export const getProduct = asinNumber => async dispatch => {
 
   try{
     if (asinNumber){
-      const product = await axios.get(`https://servernode.angelavendanocruz.com/api/products/${asinNumber}`)
+      const product = await axios.get(`https://app.servernode.angelavendanocruz.com/api/products/${asinNumber}`)
       if (product){
         dispatch({
           type: GET_PRODUCT,
