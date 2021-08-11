@@ -4,6 +4,8 @@ services:
   app:
     container_name: co2scan
     build: .
+    volumes:
+      - ./:/app
 networks:
   default:
     external: true
