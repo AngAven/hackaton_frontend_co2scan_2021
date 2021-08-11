@@ -3,7 +3,7 @@ import {ERROR, LOADING, GET_PRODUCT, SET_ASIN} from '../types/productosTypes'
 const INITIAL_STATE = {
   error: null,
   loading: false,
-  asinNumber: 'B08K8L62LF',
+  asinNumber: 'B0863TXGM3',
   productInfo: [],
   similarProducts: [],
 }
